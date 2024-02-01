@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro To CSS</title>
+    <link rel="stylesheet" href="./styles.css"> 
+    </head>
+    <style>
+        h1 {
+          color: red;
+        }
+        .container{
+            background: burlywood;
+        }
+        p{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <h1>Intro to CSS</h1>
+        <p style="color: blue;">This is a paragraph</p>
+    </div>
+    <p id="New">New paragraph</p>
+</body>
+</html>
+
+/*Learning CSS*/
+#new {
+    color: green;
+    font-size: 30px;
+}
+p{
+    color: blueviolet;
+}
