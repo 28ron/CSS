@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>This is a paragraph</p>
+    <div class="container"></div>
+</body>
+</html>
+
+/*CSS*/
+p{
+   /* color:rgb(red, green, blue);*/
+   /*color: #00FF00;*/
+   /*color: hsl(hue, saturation, lightness);*/
+   /*color: rgba(red, green, blue, alpha);*/
+   color: hsla(0, 83%,47%,1.0);
+}
+   .container{
+    width: 200px;
+    height: 200px;
+    background-image:linear-gradient(red,yellow) ;
+   }
