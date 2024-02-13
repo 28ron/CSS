@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <p>This is a paragraph</p>
+        <h4>Fourth Heading</h4>
+        <h6>Learning CSS Selectors</h6>
+        <strong>Another bold text</strong>
+    </div>
+    <p> This is another paragraph</p>
+    <a href="http://" target="_blank">First</a>
+    <a href="http://" target="_self">Second</a>
+</body>
+</html>
