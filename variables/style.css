@@ -1,0 +1,34 @@
+:root{
+    --primaryColor: tomato;
+}
+
+body{
+    background-color:var(--primaryColor)
+}
+
+h2{
+    border-bottom: 2px solid tomato;
+}
+
+.container{
+    --white: #ffffff;  
+    color:var(--primaryColor);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+button{
+    background-color: #ffffff;
+    color: rgb(41,109,236);
+    border: 1px solid var(--primaryColor)
+}
+
+#div1 {
+    height: 500px;
+    width: calc(100%-200px);
+    /*50%,500px
+    put the min variable and the min variable will be used
+    in this case 50*/
+    border: 2px solid blue;
+    margin: 20px;
+}
